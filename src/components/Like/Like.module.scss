@@ -1,0 +1,28 @@
+.like {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-size: 24px;
+    cursor: pointer;
+
+    i {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    p {
+        font-size: 20px;
+        font-weight: 300;
+
+    }
+
+    svg {
+        transition: all .3s;
+    }
+
+    svg:hover {
+        transform: scale(1.1);
+    }
+}

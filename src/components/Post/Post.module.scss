@@ -1,0 +1,97 @@
+.post {
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+    position: relative;
+
+    .header_post {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        border-bottom: 1px solid #d5d5d5;
+
+        .user {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            img {
+                width: 50px;
+                height: 50px;
+                object-fit: cover;
+                border-radius: 50%;
+            }
+
+            h3 {
+                font-weight: 300;
+                font-size: 25px;
+            }
+        }
+
+        .dots {
+            font-size: 30px;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+        }
+    }
+
+    .img_post {
+        img {
+            width: 100%;
+        }
+    }
+
+    .date {
+        margin: 10px 0;
+
+        p {
+            color: #bdbdbd;
+        }
+    }
+
+    .description {
+        h3 {
+            font-size: 25px;
+            font-weight: 300;
+        }
+
+        p {
+            color: #919191;
+        }
+    }
+
+    .activations {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+
+
+
+        .comment {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+            font-size: 24px;
+            cursor: pointer;
+
+            p {
+                font-size: 20px;
+                font-weight: 300;
+
+            }
+
+            svg {
+                transition: all .3s;
+            }
+
+            svg:hover {
+                transform: scale(1.1);
+            }
+        }
+    }
+}

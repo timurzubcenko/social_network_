@@ -1,0 +1,17 @@
+.input {
+    background: transparent;
+    border: 1px solid #c8c8c8;
+    // box-shadow: inset 0px 4px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    outline: none;
+    font-size: 14px;
+    padding: 10px 12px;
+    font-weight: 200;
+    color: #616161;
+    transition: all 0.3s;
+    width: 270px;
+}
+
+.input::placeholder {
+    color: #c8c8c8;
+}

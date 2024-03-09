@@ -1,0 +1,33 @@
+.menu {
+    background: #00000050;
+    padding: 5px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    display: none;
+    backdrop-filter: blur(10px);
+
+    ul {
+        list-style: none;
+
+        li {
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            color: red;
+        }
+
+        li:hover {
+            background: #00000050;
+        }
+
+        .close {
+            color: white;
+        }
+    }
+}
+
+.menu.active {
+    display: flex;
+}

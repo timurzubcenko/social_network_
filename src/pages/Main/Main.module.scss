@@ -1,0 +1,19 @@
+.main {
+    margin-top: calc(89.5px + 20px);
+    margin-bottom: 20px;
+
+    .in_main {
+        display: grid;
+        grid-template-columns: 360px 1fr;
+        align-items: start;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 860px) {
+    .main {
+        .in_main {
+            grid-template-columns: 1fr;
+        }
+    }
+}

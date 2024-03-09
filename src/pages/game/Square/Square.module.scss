@@ -1,0 +1,21 @@
+.square {
+    button {
+        width: 6vh;
+        height: 6vh;
+        background: #1d1d1d;
+        border-color: #494949;
+        border-radius: 1vh;
+        margin: 0.5vh;
+        outline: none;
+    }
+
+    .snake {
+        background-color: #69d469;
+        border-color: #69d469;
+    }
+
+    .apple {
+        background-color: #d46969;
+        border-color: #d46969;
+    }
+}
